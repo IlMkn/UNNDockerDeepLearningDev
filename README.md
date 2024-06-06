@@ -1,3 +1,17 @@
+# Docker container usage instruction
+Clone this repo
+```bash
+git clone https://github.com/IlMkn/NNSUDeepLearningDevelopment
+```
+Navigate to the folder of the cloned repo and run docker commands:
+```bash
+docker build -t <image_name> .
+docker run <image_name>
+```
+Docker will use dataset and learning checkpoints present in the repo and run test.py file.
+
+
+
 <img src='docs/imgs/alien.gif' align="right" width=325>
 <br><br><br>
 
